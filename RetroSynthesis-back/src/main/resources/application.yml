@@ -1,0 +1,32 @@
+# port
+server:
+  port: 8080
+spring:
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/retrosysthesis?serverTimezone=UTC
+    username: root
+    password: root
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 50MB
+  # redis
+  redis:
+    host: 172.16.2.80
+    port: 6479
+    password: 123456
+    database: 6
+    lettuce:
+      pool:
+        max-active: 10
+        max-idle: 10
+        min-idle: 1
+        time-between-eviction-runs: 10s
+# flask
+flask:
+  url: http://localhost:5001/api/retro/plan
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
