@@ -1,0 +1,195 @@
+{
+  "try1": {
+    "all_routes": [
+      "CCC(=O)O>1.5.1.12>O.CCC=O",
+      "CCC(=O)O>2.8.3.1>CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O.CC(=O)O",
+      "CCC(=O)O>3.6.1.7>CCC(=O)OP(=O)(O)O",
+      "CCC(=O)O>6.2.1.1,6.2.1.17>O=P(O)(O)OP(=O)(O)O.CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "CCC(=O)O>2.8.3>O=C(O)CCC(=O)O",
+      "CCC(=O)O>2.8.3.1>CC(O)C(=O)O",
+      "CCC(=O)O>2.8.3.9>CC(=O)CC(=O)O",
+      "CCC(=O)O>3.1.2.18>O.CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "CCC(=O)O>6.2.1.13>O=P(O)(O)O.CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "CCC(=O)O>0>O=C(O)CCO"
+    ],
+    "best_edges": [
+      "CCC(=O)O>>r1",
+      "r1>>CCC=O",
+      "r1>>O"
+    ],
+    "best_length": 1,
+    "best_route": "CCC(=O)O>1.5.1.12>O.CCC=O",
+    "build_blocks": [
+      "O",
+      "CCC=O",
+      "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "CC(=O)O",
+      "CCC(=O)OP(=O)(O)O",
+      "O=P(O)(O)OP(=O)(O)O",
+      "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "O=C(O)CCC(=O)O",
+      "CC(O)C(=O)O",
+      "CC(=O)CC(=O)O",
+      "O",
+      "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "O=P(O)(O)O",
+      "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+      "O=C(O)CCO"
+    ],
+    "cids": {
+      "CC(=O)CC(=O)O": 96,
+      "CC(=O)O": 176,
+      "CC(O)C(=O)O": 612,
+      "CCC(=O)O": 1032,
+      "CCC(=O)OP(=O)(O)O": 1034,
+      "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O": 1033,
+      "CCC=O": 527,
+      "O": 962,
+      "O=C(O)CCC(=O)O": 1110,
+      "O=C(O)CCO": 68152,
+      "O=P(O)(O)O": 1004,
+      "O=P(O)(O)OP(=O)(O)O": 1023
+    },
+    "elements": [
+      [
+        "O=P(O)(O)O",
+        "CCC=O",
+        "CCC(=O)OP(=O)(O)O",
+        "O=C(O)CCC(=O)O",
+        "O=C(O)CCO",
+        "CCC(=O)O",
+        "O=P(O)(O)OP(=O)(O)O",
+        "CC(O)C(=O)O",
+        "CC(=O)CC(=O)O",
+        "CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+        "O",
+        "CC(=O)O"
+      ],
+      [
+        "r9",
+        "r3",
+        "r4",
+        "r10",
+        "r7",
+        "r8",
+        "r6",
+        "r2",
+        "r1",
+        "r5"
+      ],
+      [
+        "r9>>O=P(O)(O)O",
+        "r2>>CC(=O)O",
+        "r10>>O=C(O)CCO",
+        "r7>>CC(=O)CC(=O)O",
+        "CCC(=O)O>>r8",
+        "r3>>CCC(=O)OP(=O)(O)O",
+        "CCC(=O)O>>r10",
+        "r1>>CCC=O",
+        "r4>>O=P(O)(O)OP(=O)(O)O",
+        "CCC(=O)O>>r6",
+        "CCC(=O)O>>r5",
+        "r4>>CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+        "CCC(=O)O>>r3",
+        "r1>>O",
+        "CCC(=O)O>>r9",
+        "CCC(=O)O>>r4",
+        "r6>>CC(O)C(=O)O",
+        "r9>>CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+        "r8>>O",
+        "r8>>CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O",
+        "CCC(=O)O>>r1",
+        "CCC(=O)O>>r2",
+        "r5>>O=C(O)CCC(=O)O",
+        "CCC(=O)O>>r7",
+        "r2>>CCC(=O)SCCN=C(O)CCN=C(O)C(O)C(C)(C)COP(=O)(O)OP(=O)(O)OCC1OC(n2cnc3c(N)ncnc32)C(O)C1OP(=O)(O)O"
+      ]
+    ],
+    "excution_time": 0.20400190353393555,
+    "iteration": 1,
+    "r_map": {
+      "r1": "1.5.1.12",
+      "r10": "0",
+      "r2": "2.8.3.1",
+      "r3": "3.6.1.7",
+      "r4": "6.2.1.1,6.2.1.17",
+      "r5": "2.8.3",
+      "r6": "2.8.3.1",
+      "r7": "2.8.3.9",
+      "r8": "3.1.2.18",
+      "r9": "6.2.1.13"
+    },
+    "status": 200,
+    "target_mol": "CCC(=O)O"
+  },
+  "try2": {
+    "all_routes": [
+      "[NH]1CCCC1>0>C1=NCCC1|C1=NCCC1>2.6.1.82>NCCCCN",
+      "[NH]1CCCC1>0>C1=NCCC1|C1=NCCC1>1.5.1>NCCCC(=O)O",
+      "[NH]1CCCC1>0>C1=NCCC1|C1=NCCC1>1.5.99.6>NCCCCNCCCN",
+      "[NH]1CCCC1>0>C1=NCCC1|C1=NCCC1>2.6.1.82>NCCCC=O"
+    ],
+    "best_edges": [
+      "r1>>C1=NCCC1",
+      "C1=NCCC1>>r2",
+      "r2>>NCCCCN",
+      "[NH]1CCCC1>>r1"
+    ],
+    "best_length": 2,
+    "best_route": "[NH]1CCCC1>0>C1=NCCC1|C1=NCCC1>2.6.1.82>NCCCCN",
+    "build_blocks": [
+      "NCCCCN",
+      "NCCCC(=O)O",
+      "NCCCCNCCCN",
+      "NCCCC=O"
+    ],
+    "cids": {
+      "C1=NCCC1": 79803,
+      "NCCCC(=O)O": 119,
+      "NCCCC=O": 118,
+      "NCCCCN": 1045,
+      "NCCCCNCCCN": 1102,
+      "[NH]1CCCC1": 31268
+    },
+    "elements": [
+      [
+        "NCCCCN",
+        "NCCCCNCCCN",
+        "[NH]1CCCC1",
+        "C1=NCCC1",
+        "NCCCC(=O)O",
+        "NCCCC=O"
+      ],
+      [
+        "r4",
+        "r3",
+        "r2",
+        "r5",
+        "r1"
+      ],
+      [
+        "r1>>C1=NCCC1",
+        "r5>>NCCCC=O",
+        "C1=NCCC1>>r3",
+        "r2>>NCCCCN",
+        "[NH]1CCCC1>>r1",
+        "C1=NCCC1>>r4",
+        "C1=NCCC1>>r2",
+        "C1=NCCC1>>r5",
+        "r4>>NCCCCNCCCN",
+        "r3>>NCCCC(=O)O"
+      ]
+    ],
+    "excution_time": 0.2609992027282715,
+    "iteration": 2,
+    "r_map": {
+      "r1": "0",
+      "r2": "2.6.1.82",
+      "r3": "1.5.1",
+      "r4": "1.5.99.6",
+      "r5": "2.6.1.82"
+    },
+    "status": 200,
+    "target_mol": "[NH]1CCCC1"
+  }
+}
